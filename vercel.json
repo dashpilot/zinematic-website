@@ -1,11 +1,11 @@
 {
   "rewrites": [
     {
-      "source": "/pocketgrade/",
+      "source": "/color-room/",
       "destination": "https://colorlab-pwa.vercel.app/"
     },
     {
-      "source": "/pocketgrade/:match*",
+      "source": "/color-room/:match*",
       "destination": "https://colorlab-pwa.vercel.app/:match*"
     },
     {
@@ -17,11 +17,11 @@
       "destination": "https://slideshowmaker.vercel.app/:match*"
     },
     {
-      "source": "/step-sequencer/",
+      "source": "/tape-deck/",
       "destination": "https://step-sequencer-ruddy.vercel.app/"
     },
     {
-      "source": "/step-sequencer/:match*",
+      "source": "/tape-deck/:match*",
       "destination": "https://step-sequencer-ruddy.vercel.app/:match*"
     },
     {

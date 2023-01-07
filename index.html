@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zinematic</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      @font-face {
+        font-family: "ImpactLabel";
+        src: url("fonts/ImpactLabel-lVYZ.ttf"); /* TTF file for CSS3 browsers */
+      }
+
+      :root {
+        font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-text-size-adjust: 100%;
+      }
+
+      body {
+        background-color: #232529;
+      }
+      section {
+        height: 600px;
+        background-size: cover;
+        background-position: top center;
+      }
+
+      article {
+        padding-top: 150px;
+        padding-bottom: 150px;
+      }
+
+      article p {
+        font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+        font-size: 19px;
+        color: white;
+      }
+
+      .tagline {
+        padding-top: 160px;
+      }
+
+      h1 {
+        font-family: ImpactLabel;
+        font-size: 50px;
+        margin-bottom: 30px;
+        transform: rotate(-3deg);
+        color: #1c3c59;
+      }
+
+      h2 {
+        font-family: ImpactLabel;
+        font-size: 35px;
+        padding-left: 30px;
+      }
+
+      h3,
+      .button {
+        font-family: ImpactLabel;
+        font-size: 35px;
+        color: white;
+        margin-bottom: 25px;
+      }
+
+      .button {
+        font-size: 27px;
+        margin-top: 15px;
+        float: right;
+      }
+
+      .button:hover {
+        color: white;
+        cursor: pointer;
+      }
+
+      section p {
+        font-size: 22px;
+        font-weight: 500;
+      }
+
+      .row .col-md-6:first-child {
+        padding-right: 50px;
+      }
+
+      .row .col-md-6:last-child {
+        padding-left: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section style="background-image: url(img/1.jpg)">
+      <div class="container">
+        <div class="row">
+          <div class="col-6"></div>
+          <div class="col-6 tagline">
+            <div>
+              <h1>Zinematic</h1>
+
+              <h2>Tools for</h2>
+
+              <h2>filmmakers</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Color Room</h3>
+
+            <p>
+              Grade your images on the go. Import LUTs or create unique looks
+              with the Look Generator. Export the result as an image or a LUT.
+            </p>
+
+            <a
+              class="button"
+              href="https://cinetools-pwa.vercel.app/pocketgrade/"
+              >Launch App >></a
+            >
+          </div>
+          <div class="col-md-6">
+            <img src="img/videotape2.jpg" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </article>
+    <section class="d-none" style="background-image: url(img/2.jpg)">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 tagline">
+            <div>
+              <h1>Zinematic</h1>
+
+              <h2>Tools for</h2>
+
+              <h2>filmmakers</h2>
+            </div>
+          </div>
+          <div class="col-6"></div>
+        </div>
+      </div>
+    </section>
+    <article style="background-color: #525152">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Tape Deck</h3>
+
+            <p>
+              Tired or wading through stock music sites? Create and record your
+              own cinematic sequences using the Tape Deck.
+            </p>
+
+            <a
+              class="button"
+              href="https://cinetools-pwa.vercel.app/step-sequencer/"
+              >Launch App >></a
+            >
+          </div>
+
+          <div class="col-md-6">
+            <img src="img/tape.jpg" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

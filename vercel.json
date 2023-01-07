@@ -1,0 +1,37 @@
+{
+  "rewrites": [
+    {
+      "source": "/pocketgrade/",
+      "destination": "https://colorlab-pwa.vercel.app/"
+    },
+    {
+      "source": "/pocketgrade/:match*",
+      "destination": "https://colorlab-pwa.vercel.app/:match*"
+    },
+    {
+      "source": "/slideshow-maker/",
+      "destination": "https://slideshowmaker.vercel.app/"
+    },
+    {
+      "source": "/slideshow-maker/:match*",
+      "destination": "https://slideshowmaker.vercel.app/:match*"
+    },
+    {
+      "source": "/step-sequencer/",
+      "destination": "https://step-sequencer-ruddy.vercel.app/"
+    },
+    {
+      "source": "/step-sequencer/:match*",
+      "destination": "https://step-sequencer-ruddy.vercel.app/:match*"
+    },
+    {
+      "source": "/videospecs/",
+      "destination": "https://videospecs.vercel.app/"
+    },
+    {
+      "source": "/videospecs/:match*",
+      "destination": "https://videospecs.vercel.app/:match*"
+    },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}

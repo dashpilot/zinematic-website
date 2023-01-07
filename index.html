@@ -11,6 +11,11 @@
       crossorigin="anonymous"
     />
 
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
     <style>
       @font-face {
         font-family: "ImpactLabel";
@@ -87,9 +92,29 @@
         cursor: pointer;
       }
 
+      .intro h3 {
+        font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .intro {
+        background-image: url(img/back.jpg);
+      }
+
+      .intro .col-md-4 {
+        padding: 30px 30px;
+      }
+
       section p {
         font-size: 22px;
         font-weight: 500;
+      }
+
+      .fa-large {
+        font-size: 40px;
+        color: white;
+        margin-bottom: 30px;
       }
 
       .row .col-md-6:first-child {
@@ -121,19 +146,55 @@
             <div>
               <h1>Zinematic</h1>
 
-              <h2>Tools for</h2>
+              <h2>Color grading</h2>
 
-              <h2>filmmakers</h2>
+              <h2>on the go</h2>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <article class="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <i class="fas fa-film fa-large"></i>
+            <br />
+
+            <h3>Grab stills from video</h3>
+
+            <p>Upload an image or automatically extract stills from a video</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <i class="fas fa-cube fa-large"></i>
+            <br />
+
+            <h3>Import and export LUTs</h3>
+
+            <p>
+              Upload and apply your own LUTs or export your final grade as a LUT
+            </p>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <i class="fas fa-magic fa-large"></i>
+            <br />
+
+            <h3>Look Generator</h3>
+
+            <p>
+              Need inspiration? Create endless new looks with the Look Generator
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+
     <article>
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h3>Color Room</h3>
+            <h3>Zinematic Color</h3>
 
             <p>
               Grade your images on the go. Import LUTs or create unique looks
@@ -168,7 +229,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h3>Tape Deck</h3>
+            <h3>Zinematic Sound</h3>
 
             <p>
               Tired or wading through stock music sites? Create and record your

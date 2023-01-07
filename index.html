@@ -87,6 +87,13 @@
         float: right;
       }
 
+      .button-center {
+        display: inline-block;
+        float: none;
+        font-size: 35px;
+        margin-top: 100px !important;
+      }
+
       .button:hover {
         color: white;
         cursor: pointer;
@@ -115,6 +122,19 @@
         font-size: 40px;
         color: white;
         margin-bottom: 30px;
+      }
+
+      footer {
+        text-align: center;
+        background-color: black;
+        padding: 15px;
+        text-align: center;
+        color: white;
+      }
+
+      footer a,
+      footer a:hover {
+        color: white;
       }
 
       .row .col-md-6:first-child {
@@ -187,10 +207,14 @@
             </p>
           </div>
         </div>
+
+        <div class="text-center">
+          <a class="button button-center" href="/tape-deck/">> Launch App <</a>
+        </div>
       </div>
     </article>
 
-    <article>
+    <article class="d-none">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -225,7 +249,7 @@
         </div>
       </div>
     </section>
-    <article style="background-color: #525152">
+    <article class="d-none" style="background-color: #525152">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -245,5 +269,8 @@
         </div>
       </div>
     </article>
+    <footer>
+      Made by <a href="https://www.filmkit.net" target="_blank">Filmkit</a>
+    </footer>
   </body>
 </html>

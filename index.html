@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zinematic</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -97,6 +98,16 @@
 
       .row .col-md-6:last-child {
         padding-left: 50px;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .row .col-md-6:first-child {
+          padding-right: 10px;
+        }
+
+        .row .col-md-6:last-child {
+          padding-left: 10px;
+        }
       }
     </style>
   </head>
